@@ -30,8 +30,11 @@
     width: 90%; 
 } 
 
+.titulo_video{
+    color: var(--green-light1);
+    font-weight: bold;
 
-
+}
 
 .card-custom {
     border: none;
