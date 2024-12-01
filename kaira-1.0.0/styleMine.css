@@ -1,4 +1,4 @@
-
+/*variables*/ 
 :root {
     --beige: #F9F1E7;
     --gray-dark: #636363;
@@ -13,12 +13,24 @@
     background-color: var(--beige);
 }
 .bg-color-home{
-    background-color: var(--dark-green2);
+    background-color: var(--green);
 }
 
 .bg-color-ventajas{
     background-color: var(--green-light1);
 }
+
+/*Main Page*/
+
+#MainPage{
+    height: 100%;
+}
+
+.carousel-video{
+    width: 90%; 
+} 
+
+
 
 
 .card-custom {
