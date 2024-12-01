@@ -171,21 +171,21 @@
 
       <ul class="cat-list">
         <li class="cat-list-item">
-          <a href="#" title="Jackets">Baños Full Day</a>
+          <a href="#Gallery" title="Jackets">Baños Full Day</a>
         </li>
         <li class="cat-list-item">
-          <a href="#" title="T-shirts">Puyo Full Day</a>
+          <a href="#Gallery" title="T-shirts">Puyo Full Day</a>
         </li>
         <li class="cat-list-item">
-          <a href="#" title="Handbags">Baños And Puyo 2 Days And 2 Nights</a>
+          <a href="#Gallery" title="Handbags">Baños And Puyo 2 Days And 2 Nights</a>
         </li>
       </ul>
 
     </div>
   </div>
 
-
-  <nav class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center">
+  <!-- ###NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-nav text-uppercase fs-6 p-3 border-bottom align-items-center">
     <div class="container-fluid">
       <div class="row justify-content-between align-items-center w-100">
 
@@ -213,35 +213,41 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#" id="dropdownHome" data-bs-toggle="dropdown"
+                  <a class="nav-link active" href="#MainPage" id="dropdownHome" data-bs-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="#" id="dropdownShop" data-bs-toggle="dropdown"
+                  <a class="nav-link " href="#Beneficts" id="dropdownShop" data-bs-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Beneficts</a>
 
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Gallery">Gallery</a>
+                </li>
+
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdownBlog" data-bs-toggle="dropdown"
+                  <a class="nav-link dropdown-toggle" href="#Options" id="dropdownBlog" data-bs-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Options</a>
                   <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownBlog">
                     <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Baños</a>
+                      <a href="#Options" class="dropdown-item item-anchor">Baños</a>
                     </li>
                     <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Puyo</a>
+                      <a href="#Options" class="dropdown-item item-anchor">Puyo</a>
                     </li>
                     <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Baños and Puyo</a>
+                      <a href="#Options" class="dropdown-item item-anchor">Baños and Puyo</a>
                     </li>
                   </ul>
                 </li>
             
+                
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Gallery</a>
+                  <a class="nav-link" href="#Opinions">Opinions</a>
                 </li>
+
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Opinions</a>
+                  <a class="nav-link" href="#Contactus">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -270,8 +276,8 @@
       </div>
     </div>
   </nav>
-
-  <section id="mainPage" class="bg-light py-5"s>
+  <!--## MAIN PAGE-->
+  <section id="MainPage" class="bg-color-home py-5"s>
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
@@ -324,7 +330,9 @@
     </div>
   </section>
 
-  <section id="Opinions" class="features py-5">
+  <!--Options-->
+
+  <section id="Beneficts" class="features py-5 bg-color-ventajas">
     <div class="container">
       <div class="row">
         <div class="col-md-3 text-center" data-aos="fade-in" data-aos-delay="0">
@@ -576,7 +584,7 @@
     </div>
   </section>
 
-  <section class="video py-5 overflow-hidden">
+  <section id="PromotionalVideo" class="video py-5 overflow-hidden">
     <div class="container-fluid">
       <div class="row">
         <div class="video-content open-up" data-aos="zoom-out">
@@ -596,7 +604,7 @@
     </div>
   </section>
 
-  <section class="testimonials py-5 bg-light">
+  <section id = "Opinions" class="testimonials py-5 bg-light">
     <div class="section-header text-center mt-5">
       <h3 class="section-title">WE LOVE GOOD COMPLIMENT</h3>
     </div>
@@ -640,7 +648,7 @@
   </section>
 
 
-  <section class="blog py-5">
+  <section id="Blogs" class="blog py-5">
     <div class="container">
       <div class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3">
         <h4 class="text-uppercase">Read Blog Posts</h4>
@@ -708,7 +716,7 @@
     </div>
   </section>
 
-  <section class="logo-bar py-5 my-5">
+  <section id = "Logo" class="logo-bar py-5 my-5">
     <div class="container">
       <div class="row">
         <div class="logo-content d-flex flex-wrap justify-content-between">
@@ -722,7 +730,7 @@
     </div>
   </section>
 
-  <section class="newsletter bg-light" style="background: url(images/pattern-bg.png) no-repeat;">
+  <section id="Contactus" class="newsletter bg-light" style="background: url(images/pattern-bg.png) no-repeat;">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 py-5 my-5">
@@ -756,7 +764,7 @@
     </div>
   </section>
 
-  <section class="instagram position-relative">
+  <section id = "Instagram" class="instagram position-relative">
     <div class="d-flex justify-content-center w-100 position-absolute bottom-0 z-1">
       <a href="https://www.instagram.com/templatesjungle/" class="btn btn-dark px-5">Follow us on Instagram</a>
     </div>
@@ -943,6 +951,9 @@
       </div>
     </div>
   </footer>
+
+
+
   <script src="js/jquery.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/SmoothScroll.js"></script>
@@ -951,7 +962,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="js/script.min.js"></script>
-  <script src="js/main.js"></script>
+  <!--<script src="js/main.js"></script>-->
   <script src="js/gallery.js"></script>
 </body>
 

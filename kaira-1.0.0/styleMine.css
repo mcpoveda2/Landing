@@ -1,3 +1,26 @@
+
+:root {
+    --beige: #F9F1E7;
+    --gray-dark: #636363;
+    --green-light2: #A2D1B2;
+    --green-light1 : #D3F1DF;
+    --green : #85A98F;
+    --dark-green : #5A6C57;
+    --dark-green2 : #525B44;
+}
+
+.bg-nav{
+    background-color: var(--beige);
+}
+.bg-color-home{
+    background-color: var(--dark-green2);
+}
+
+.bg-color-ventajas{
+    background-color: var(--green-light1);
+}
+
+
 .card-custom {
     border: none;
     border-radius: 0;

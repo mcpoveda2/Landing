@@ -1,6 +1,7 @@
 // Define the sets of images
 const set1 = [
-    { src: "images-michael/gallery/img1-1.jpg", caption: "Caption 1" }
+    { src: "images-michael/gallery/img1-1.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img1-4.jpg", caption: "Caption 1" }
   ];
   
   const set2 = [
