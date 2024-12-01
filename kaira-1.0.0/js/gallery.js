@@ -1,11 +1,26 @@
 // Define the sets of images
 const set1 = [
     { src: "images-michael/gallery/img1-1.jpg", caption: "Caption 1" },
-    { src: "images-michael/gallery/img1-4.jpg", caption: "Caption 1" }
+    { src: "images-michael/gallery/img1-2.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img1-3.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img1-4.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img1-5.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img1-6.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img1-7.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img1-8.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img1-9.jpg", caption: "Caption 1" },
   ];
   
   const set2 = [
-    { src: "images-michael/gallery/img1-2.jpg", caption: "Caption 4" }
+    { src: "images-michael/gallery/img2-1.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img2-2.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img2-3.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img2-4.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img2-5.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img2-6.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img2-7.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img2-8.jpg", caption: "Caption 1" },
+    { src: "images-michael/gallery/img2-9.jpg", caption: "Caption 1" },
     
   ];
   
