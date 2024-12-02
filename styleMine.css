@@ -36,6 +36,22 @@
 
 }
 
-.logo-final{
-    width: 60%;
-}
+.card-custom {
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  .card-img {
+    object-fit: cover; /* Hace que las imágenes se recorten para llenar el espacio sin distorsionarse */
+    width: 100%; /* Asegura que ocupen todo el ancho del contenedor */
+  }
+  
+  .card-footer-custom {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  .footer-blue { background-color: #003F87; } 
+  .footer-teal { background-color: #007BFF; } 
+  .footer-red { background-color: #D32F2F; } 
+  
