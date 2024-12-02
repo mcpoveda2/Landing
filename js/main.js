@@ -98,15 +98,34 @@ let getData = async () => {
             if (Object.keys(data).length > 0) {
                 for (let key in data) {
        
-                    let { email, saved } = data[key]
+                    let { email, saved, option } = data[key]
                        
                     let date = saved.split(",")[0]
                        
                     let count = countSuscribers.get(date) || 0;
                     countSuscribers.set(date, count + 1)
+
+                    let videoSource = '';
+                    switch (option) {
+                        case 'Baños':
+                            videoSource = 'images-michael/Videos/Video_1.mp4'; // Ruta del video de Baños
+                            break;
+                        case 'Puyo':
+                            videoSource = 'images-michael/Videos/Video_2.mp4'; // Ruta del video de Puyo
+                            break;
+                        case 'Mixto':
+                            videoSource = 'images-michael/Videos/Video_3.mp4'; // Ruta del video mixto
+                            break;
+                        default:
+                            videoSource = 'videos/default.mp4'; // Video por defecto si no se encuentra el paquete
+                            break;
+                    }
                 }
             }
+
+            
             // END
+            
 
             // Genere y agregue filas de una tabla HTML para mostrar fechas y cantidades de suscriptores almacenadas 
             if (countSuscribers.size > 0) {

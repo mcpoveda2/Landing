@@ -701,30 +701,49 @@
       <div class="row justify-content-center">
         <div class="col-md-8 py-5 my-5">
           <div class="subscribe-header text-center pb-3">
-            <h3 class="section-title text-uppercase">Sign Up for our newsletter</h3>
+            <h3 class="section-title text-uppercase">Suscribete para más información!</h3>
           </div>
           <form id="form" class="d-flex flex-wrap gap-2">
-            <input id = "form_name"type="text" name="email" placeholder="Your Email Addresss" class="form-control form-control-lg">
+            <div class="form-group">
+              <label for="fullName">Nombre Completo</label>
+              <input type="text" id="form_name" name="name" placeholder="Ingrese su nombre completo" class="form-control form-control-lg form-size" required >
+            </div>
+            <div class="form-group">
+              <label for="email">Correo Electrónico</label>
+              <input id = "form_email" type="text" name="email" placeholder="Your Email Addresss" class="form-control form-control-lg form-size">
+            </div>
+            <div class="form-group">
+              <label for="package">Paquete de Viaje</label>
+              <select  id="form_option" name="option" class="form-control form-control-lg ">
+                <option value="baños">Baños</option>
+                <option value="puyo">Puyo</option>
+                <option value="mixto">Mixto</option>
+              </select>
+            </div>
+
+            
             <button class="btn btn-dark btn-lg text-uppercase w-100">Sign Up</button>
           </form>
         </div>
 
         <!-- Suscribers - START -->
-      <div class="col-md-4 py-5 my-5">
-        <h4 class="element-title text-capitalize my-3">Subscribers per Day</h4>
-        <table class="table table-hover table-light table-borderless">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Day</th>
-              <th scope="col">Subscribers</th>
-            </tr>
-          </thead>
-          <tbody id="subscribers">
-          </tbody>
-        </table>
-      </div>
-      <!-- Suscribers - END -->
+        <div class="col-md-4 py-5 my-5">
+          <div class="video_form">
+          </div>
+          <h4 class="element-title text-capitalize my-3">Subscribers per Day</h4>
+          <table class="table table-hover table-light table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Day</th>
+                <th scope="col">Subscribers</th>
+              </tr>
+            </thead>
+            <tbody id="subscribers">
+            </tbody>
+          </table>
+        </div>
+        <!-- Suscribers - END -->
       </div>
     </div>
   </section>
@@ -877,7 +896,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="js/script.min.js"></script>
-  <!--<script src="js/main.js"></script>-->
+  <script src="js/main.js"></script>
   <script src="js/gallery.js"></script>
 </body>
 

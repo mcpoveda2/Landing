@@ -55,3 +55,11 @@
   .footer-teal { background-color: #007BFF; } 
   .footer-red { background-color: #D32F2F; } 
   
+
+.form-group{
+    width: 100%;
+}
+
+.video-promotional{
+    width: 80%;
+}
