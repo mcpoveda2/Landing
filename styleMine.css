@@ -36,22 +36,6 @@
 
 }
 
-.card-custom {
-    border: none;
-    border-radius: 0;
-    overflow: hidden;
-  }
-  .card-img {
-    height: 250px; /* Altura fija para todas las imágenes */
-    object-fit: cover; /* Hace que las imágenes se recorten para llenar el espacio sin distorsionarse */
-    width: 100%; /* Asegura que ocupen todo el ancho del contenedor */
-  }
-  
-  .card-footer-custom {
-    color: white;
-    padding: 15px;
-    text-align: center;
-  }
-  .footer-blue { background-color: #003F87; } /* Azul oscuro */
-  .footer-teal { background-color: #007BFF; } /* Azul más claro */
-  .footer-red { background-color: #D32F2F; } /* Rojo */
+.logo-final{
+    width: 60%;
+}
