@@ -98,7 +98,7 @@ let getData = async () => {
             if (Object.keys(data).length > 0) {
                 for (let key in data) {
        
-                    let { email, saved, option } = data[key]
+                    let { email, saved } = data[key]
                        
                     let date = saved.split(",")[0]
                        

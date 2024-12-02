@@ -1,6 +1,7 @@
 /*variables*/ 
 :root {
     --beige: #F9F1E7;
+    --alternativ : #E5E1DA;
     --gray-dark: #636363;
     --green-light2: #A2D1B2;
     --green-light1 : #D3F1DF;
@@ -24,6 +25,43 @@
 
 #MainPage{
     height: 100%;
+}
+
+#Gallery{
+    background-color: var(--green-light2);
+}
+
+#btnPrimary{
+    background-color: #D32F2F;
+}
+
+#btnSecondary{
+    background-color: #003F87;
+}
+
+.gallery-sections{
+    background-color: var(--alternativ);
+}
+
+#Options{
+    background-color: var(--green);
+
+}
+
+#Opinions{
+    background-color: var(--green-light1);
+}
+
+#Blogs{
+    background-color: var(--dark-green);
+}
+
+#Contactus{
+    background-color: var(--dark-green2);
+}
+
+#footer{
+    background-color: var(--dark-green2);
 }
 
 .carousel-video{
@@ -61,5 +99,9 @@
 }
 
 .video-promotional{
+    width: 80%;
+}
+
+.logo-final{
     width: 80%;
 }

@@ -38,7 +38,7 @@ const set1 = [
       col.className = "col-md-4";
 
       col.innerHTML = `
-            <div class="card mb-4 box-shadow">
+            <div class="card mb-4 box-shadow gallery-sections">
               <img class="card-img-top" src="${image.src}" alt="${image.caption}" style="height: 225px; width: 100%; display: block;">
               <div class="card-body">
                 <p class="card-text">${image.description}</p>
